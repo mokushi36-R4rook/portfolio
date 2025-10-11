@@ -1,4 +1,4 @@
-
+```java
 import java.util.*;
 /*
 制作日　2025/10/11
