@@ -9,6 +9,7 @@ import java.util.*;
 得られた値から１０００の位だけ取り出せるように演算を行う。
 この結果の標準出力に出力する。
 */
+
 public class Ex_02_02{
     public static void main(String[]args){
         Scanner s = new Scanner(System.in);
