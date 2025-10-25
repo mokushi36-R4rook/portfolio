@@ -1,11 +1,13 @@
 def main():
-  #九九表を出力する
-  for i in range(9):
-      for j in range(9):
-          if j != 8:
-              print(((i + 1)*(j + 1)), end=" ")
+  #標準入力から受け取った整数nについて、n*nの九九表を出力する
+  n = int(input())
+
+  for i in range(1,n + 1):
+      for j in range(1,n + 1):
+          if j == n:
+              print(i * j)
           else:
-              print((i + 1)*(j + 1))
-              
+              print(i * j, end=" ")
+          
 if __name__ == "__main__":
     main()
